@@ -135,13 +135,13 @@ const NavBar = () => {
                                 <div class="tabpane1 active tab1" id="tab1-v1">
                                   <ul class="border-right">
                                     <li class="span-text">
-                                      <Link  to="dataManagment.html">
+                                      <Link  to="/dataManagement">
                                         <img src={Infrastructure} />
                                         <span>Data Management</span>
                                       </Link> 
                                     </li>
                                     <li class="span-text">
-                                      <Link  to="dataIntegration.html">
+                                      <Link  to="/dataIntegration">
                                         <img src={Descriptor} />
                                         <span>
                                           Data Integration and Virtualization
@@ -149,13 +149,13 @@ const NavBar = () => {
                                       </Link> 
                                     </li>
                                     <li class="span-text">
-                                      <Link  to="dataReport.html">
+                                      <Link  to="/dataReport">
                                         <img src={StoryTelling} />
                                         <span>Data Story Telling</span>
                                       </Link> 
                                     </li>
                                     <li class="span-text">
-                                      <Link  to="openSource.html">
+                                      <Link  to="/openSource">
                                         <img src={OpenSource} />
                                         <span>Open Source</span>
                                       </Link> 
@@ -206,19 +206,19 @@ const NavBar = () => {
                           <div class="col-md-12 col-sm-10 padding1">
                             <ul class="border-right">
                               <li class="span-text">
-                                <Link  to="consulting.html">
+                                <Link  to="/consultingServices">
                                   <img src={CustomerService} />
                                   <span>Consulting Services</span>
                                 </Link> 
                               </li>
                               <li class="span-text">
-                                <Link  to="knowledge.html">
+                                <Link  to="/knowledgeServices">
                                   <img src={Thought} />
                                   <span>Knowledge Services</span>
                                 </Link> 
                               </li>
                               <li class="span-text">
-                                <Link  to="projectService.html">
+                                <Link  to="/managedServices">
                                   <img src={Managed} />
                                   <span>Managed Services</span>
                                 </Link> 
