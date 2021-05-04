@@ -166,25 +166,25 @@ const NavBar = () => {
                                 <div class="tabpane1" id="tab2-v2">
                                   <ul class="border-right">
                                     <li class="span-text">
-                                      <Link  to="digitalTechnologies.html">
+                                      <Link  to="/digitalTechnologies">
                                         <img src={Webinar} />
                                         <span>Digitalization</span>
                                       </Link> 
                                     </li>
                                     <li class="span-text">
-                                      <Link  to="dataWarehouse.html">
+                                      <Link  to="/dataWarehousing">
                                         <img src={BigData} />
                                         <span>Data Warehouse & Data Lakes</span>
                                       </Link> 
                                     </li>
                                     <li class="span-text">
-                                      <Link  to="cloudTechnologies.html">
+                                      <Link  to="/cloudTechnologies">
                                         <img src={Cloud} />
                                         <span>Cloud Technologies</span>
                                       </Link> 
                                     </li>
                                     <li class="span-text">
-                                      <Link  to="mobileTechnologies.html">
+                                      <Link  to="/mobileTechnologies">
                                         <img src={SocialMedia} />
                                         <span>Mobile Technologies</span>
                                       </Link> 

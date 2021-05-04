@@ -17,6 +17,10 @@ import DataManagement from './components/dataManagement';
 import DataIntegration from './components/dataIntegration';
 import DataReport from './components/dataReport';
 import OpenSource from './components/openSource';
+import DigitalTechnologies from './components/digitalTechnologies';
+import DataWarehousing from './components/dataWarehousing';
+import CloudTechnologies from './components/cloudTechnologies';
+import MobileTechnologies from './components/mobileTechnologies';
 
 
 function App() {
@@ -37,6 +41,10 @@ function App() {
           <Route path="/dataIntegration" component={DataIntegration} />
           <Route path="/dataReport" component={DataReport} />
           <Route path="/openSource" component={OpenSource} />
+          <Route path="/digitalTechnologies" component={DigitalTechnologies} />
+          <Route path="/dataWarehousing" component={DataWarehousing} />
+          <Route path="/cloudTechnologies" component={CloudTechnologies} />
+          <Route path="/mobileTechnologies" component={MobileTechnologies} />
 
           <Route path="/home" component={Home} />
 
